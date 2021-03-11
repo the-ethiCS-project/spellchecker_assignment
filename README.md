@@ -43,7 +43,7 @@ There are many technical considerations for students to think through in designi
 * That it might be reasonable for the spellchecker to suggest higher-frequency words over lower-frequency words, and suggestions might prioritize how close errant letters are on the keyboard (e.g., "qpple" is a more likely misspelling of "apple" than "bpple").
 
 ### Teaching Notes
-I structured the assignment using the `StringPermuter` class to handle generating all the variations of a word (part I) and the `Spellchecker` class to deal with the creation of all the list of correctly spelt words (part II).  I supplied the code which students used to read words in from a text file (the `FileReader` class), as there are some complicated things that occur with punctuation.
+I structured the assignment using the [`StringPermuter`](https://github.com/the-ethiCS-project/spellchecker_assignment/blob/main/StringPermuter.java) class to handle generating all the variations of a word (part I) and the [`Spellchecker`](https://github.com/the-ethiCS-project/spellchecker_assignment/blob/main/Spellchecker.java) class to deal with the creation of all the list of correctly spelt words (part II).  I supplied the code which students used to read words in from a text file (the [`FileReader`](https://github.com/the-ethiCS-project/spellchecker_assignment/blob/main/FileReader.java) class), as there are some complicated things that occur with punctuation.
 
 ### CS Modifications
 One possible expansion of the project would be to have students keep track of which variations of a word are more likely (_e.g._ spelling `pun` as `qun` isn't likely).  Another would be to look at doing more complex variations (_e.g._ adding/removing two letters).
