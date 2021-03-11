@@ -23,8 +23,8 @@ This project had four parts: an initial brainstorming exercise, assigned in adva
 
 1. Students brainstormed different potential issues with the basic spellchecker design, as described in a video/powerpoint by me. (Graded complete/incomplete)
   * File: Video
-  * File: Powerpoint
-  * File: List of instructions + questions
+  * [Video slides](https://github.com/the-ethiCS-project/spellchecker_assignment/blob/main/Spellchecking.pptx)
+  * [Initial Questions](https://github.com/the-ethiCS-project/spellchecker_assignment/blob/main/SCProjectQuestions.pdf)
 2. They then submitted code for generating lots of String variations given a base word, and separate code to create and manage a database of correctly spelt words. (This was considered a rough draft and was graded complete/incomplete).
 3. Next, students wrote code to create and manage a database of correctly spelt words. (This was considered a rough draft and was graded complete/incomplete).
 4. After receiving feedback, students submitted their final version of the project (Assessed by both testing the spellchecker on a set of misspelt words and considering the individual components.  For example, did the student generate all words with a letter missing?). Students also submitted answers to a set of questions which followed up on what they wrote about in their initial brainstorming (graded complete/incomplete)
@@ -49,7 +49,7 @@ I structured the assignment using the `StringPermuter` class to handle generatin
 One possible expansion of the project would be to have students keep track of which variations of a word are more likely (_e.g._ spelling `pun` as `qun` isn't likely).  Another would be to look at doing more complex variations (_e.g._ adding/removing two letters).
 
 ### Ethics Pedagogy
-One good way to have students think about the ethics of a new-to-them coding project is to give students a chance to have a 'first draft' answer where they can start to think about the ethical implications of a spellchecker design or execution, and then (after further consideration) a chance to revisit their initial answers and improve upon them. For this reason, we bookended this project by an initial brainstorming exercise [FILES: ppt, list of questions] and a follow-up after having completed their code [FILE: list of questions].
+One good way to have students think about the ethics of a new-to-them coding project is to give students a chance to have a 'first draft' answer where they can start to think about the ethical implications of a spellchecker design or execution, and then (after further consideration) a chance to revisit their initial answers and improve upon them. For this reason, we bookended this project by an initial brainstorming exercise and a follow-up after having completed their code [FILE: list of questions](https://github.com/the-ethiCS-project/spellchecker_assignment/blob/main/SCProjectQuestions.pdf).
 
 Yet in particular, we hoped students would recognize the following ethical considerations by the end of the project:
 * An assumption that a spellchecker is designed to correct for "proper English words" may be in error. After all, linguistic communities use different words, and we might want to design a spellchecker that can do well by that broad set of linguistic communities.
