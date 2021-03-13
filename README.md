@@ -22,8 +22,8 @@ Students will be able to anticipate how the different factors of input data sets
 This project had four parts: an initial brainstorming exercise, assigned in advance of the main project; writing a first draft of the code to generate many variations of a word; a first draft of code to create a database of correctly spelt words; and then revisions to their initial code plus a follow-up to their initial brainstorming exercise.
 
 1. Students brainstormed different potential issues with the basic spellchecker design, as described in a video/powerpoint by me. (Graded complete/incomplete)
-  * File: Video
-  * [Video slides](https://github.com/the-ethiCS-project/spellchecker_assignment/blob/main/Spellchecking.pptx)
+  * [Introduction Video](https://www.youtube.com/watch?v=bLw0Ejj57CQ)
+  * [Video Slides](https://github.com/the-ethiCS-project/spellchecker_assignment/blob/main/Spellchecking.pptx)
   * [Initial Questions](https://github.com/the-ethiCS-project/spellchecker_assignment/blob/main/SCProjectQuestions.pdf)
 2. They then submitted code for generating lots of String variations given a base word, and separate code to create and manage a database of correctly spelt words. (This was considered a rough draft and was graded complete/incomplete).
 3. Next, students wrote code to create and manage a database of correctly spelt words. (This was considered a rough draft and was graded complete/incomplete).
@@ -49,7 +49,7 @@ I structured the assignment using the [`StringPermuter`](https://github.com/the-
 One possible expansion of the project would be to have students keep track of which variations of a word are more likely (_e.g._ spelling `pun` as `qun` isn't likely).  Another would be to look at doing more complex variations (_e.g._ adding/removing two letters).
 
 ### Ethics Pedagogy
-One good way to have students think about the ethics of a new-to-them coding project is to give students a chance to have a 'first draft' answer where they can start to think about the ethical implications of a spellchecker design or execution, and then (after further consideration) a chance to revisit their initial answers and improve upon them. For this reason, we bookended this project by an initial brainstorming exercise and a follow-up after having completed their code [FILE: list of questions](https://github.com/the-ethiCS-project/spellchecker_assignment/blob/main/SCProjectQuestions.pdf).
+One good way to have students think about the ethics of a new-to-them coding project is to give students a chance to have a 'first draft' answer where they can start to think about the ethical implications of a spellchecker design or execution, and then (after further consideration) a chance to revisit their initial answers and improve upon them. For this reason, we bookended this project by an initial brainstorming exercise and a follow-up after having completed their code [using the questions here](https://github.com/the-ethiCS-project/spellchecker_assignment/blob/main/SCProjectQuestions.pdf).
 
 Yet in particular, we hoped students would recognize the following ethical considerations by the end of the project:
 * An assumption that a spellchecker is designed to correct for "proper English words" may be in error. After all, linguistic communities use different words, and we might want to design a spellchecker that can do well by that broad set of linguistic communities.
@@ -60,7 +60,7 @@ In total, we hoped students would be able to ask themselves, the following ethic
 Who might be harmed based upon the choice of 'correctly-spelled words' or permutations considered in the spell-checking design?
 Whose responsibility is it to determine the set of base texts? (The programmer's? Someone else's? If so, who?)
 
-Midway, we gave students time for [class discussion] (link to Kiran's Argument Repair explanation).
+Midway, we gave students time for [class discussion](https://tanginstitute.andover.edu/files/Argument-Repair-1.pdf).
 
 ## Results
 During our initial discussion, when asked what words would need to be included to make the spellchecker work well for many groups of people, students said the following:
